@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+ <html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+
+<head>
+	 
+	<meta charset="utf-8" />
+	<title>Math</title>
+
+	<link href="assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+<!-- END HEAD -->
+
+<body >
+<!-- BEGIN : LOGIN PAGE 5-1 -->
+<div class="container"  id="exam">
+	<div class="row">
+ 		<label class="col-md-3 control-label">Name</label>
+		<div class="col-md-3">
+ 			<input type="text" class="form-control" id="studentName" style="width:100%">
+ 		</div>
+		<label class="col-md-3 control-label">Questions</label>
+		<div class="col-md-3">
+			<input type="text" class="form-control" id="totalQues" maxlength="2" style="width:100%">
+		</div>
+
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<button id="processBtn" class="btn-info btn-lg">Start</button>
+		</div>
+	</div>
+</div>
+<div class="container" style="display: none;" id="ques">
+<div class="row">
+	<div class="col-sm-12">
+		<button id="finalBtn" class="btn-info btn-lg">Result</button>
+	</div>
+</div>
+	<div id="quiz" class="row">
+	</div>
+</div>
+
+<![endif]-->
+<!-- BEGIN CORE PLUGINS -->
+<script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+
+
+<script>
+
+    $(document).ready(function()
+    {
+        $("#processBtn").on("click",function(){
+            var randomMax = 10;
+            if($("#studentName").val()=="adan"){
+                randomMax = 100000;
+			}
+			$("#ques").show();
+			$("#exam").hide();
+
+            var row = '';
+            var count =1;
+            var html = '';
+			var totalQues = $("#totalQues").val();
+			if(isNaN(totalQues)){
+			    totalQues = 10;
+			}
+			  
+            for(j=0;j<totalQues;j++){
+
+                $("#quiz").append('\t\t<div class="col-md-2" id="c'+j+'" style="border:1px solid #c2cad8;padding:0px;margin:20px;background:yellow">\n' +
+                    '\n Question # ' + count++ +
+                    '\t\t\t\t<input type="text" class="form-control" value="'+Math.floor(Math.random() * randomMax)+'" readonly style="text-align: right">\n' +
+                    '\t\t\t\t<input type="text" class="form-control" value="'+Math.floor(Math.random() * randomMax)+'" readonly style="text-align: right">\n' +
+					'\t\t\t\t<input type="text" class="form-control" value="'+Math.floor(Math.random() * randomMax)+'" readonly style="text-align: right">\n' +
+                    '\t\t\t <input id="c'+j+'answer" type="text" class="form-control" style="text-align: right;" placeholder="Answer">\n' +
+                    '\n' +
+                    '\t\t</div>\n');
+
+            }
+        })
+		$("#finalBtn").on("click",function(){
+            var totalQues = $("#totalQues").val();
+                 for (j = 0; j < totalQues ; j++) {
+                    total = 0;
+                    $("#c"+j+" input[readonly]").each(function(){
+                        total += parseInt($(this).val());
+                    });
+                    if($("#c"+j+"answer").val() == total){
+                        $("#c"+j+"answer").css("background","#98d898");
+ 					}else{
+                        if($("#c"+j+"answer").val().length > 0) {
+                            $("#c" + j + "answer").css("background", "red");
+                        }
+					}
+                    //$("#r"+i+j+"answer").val(total);
+                }
+
+
+		});
+    });
+</script>
+</body>
+
+</html>

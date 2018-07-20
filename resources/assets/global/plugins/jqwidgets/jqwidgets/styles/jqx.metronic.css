@@ -1,0 +1,965 @@
+﻿.jqx-rc-tl-metronic
+{
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.jqx-rc-tr-metronic
+{
+    -moz-border-radius-topright: 0px;
+    -webkit-border-top-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.jqx-rc-bl-metronic
+{
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.jqx-rc-br-metronic
+{
+    -moz-border-radius-bottomright: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+/*top rounded Corners*/
+.jqx-rc-t-metronic
+{
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    -webkit-border-top-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+/*bottom rounded Corners*/
+.jqx-rc-b-metronic
+{
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+/*right rounded Corners*/
+.jqx-rc-r-metronic
+{
+    -moz-border-radius-topright: 0px;
+    -webkit-border-top-right-radius: 0px;
+    border-top-right-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+/*left rounded Corners*/
+.jqx-rc-l-metronic
+{
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+/*all rounded Corners*/
+.jqx-rc-all-metronic
+{
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+.jqx-widget-metronic {
+    font-family: Calibri;
+}
+.jqx-widget-content-metronic{font-family: Calibri; border-color: #d4d4d4; color: #444444; background-color: #fff;}
+.jqx-widget-header-metronic{font-family: Calibri; color: #444444; border-color:#d4d4d4; background-color:#ffffff;}
+
+.jqx-fill-state-normal-metronic{font-family: Calibri; border-color: #d4d4d4; color: #444444; background: #fdfdfd;}
+.jqx-grid-cell-sort-alt-metronic, .jqx-grid-cell-filter-alt-metronic, .jqx-grid-cell-pinned-metronic, .jqx-grid-cell-alt-metronic, .jqx-grid-cell-sort-metronic{ background:#ededed; color: #000;}
+.jqx-button-metronic {border-color: #d4d4d4;}
+.jqx-fill-state-hover-metronic{border-color:#86bfa0; color: #000; background:#d3f0e0;}
+.jqx-input-metronic, .jqx-input-button-content-metronic {border-color: #d4d4d4;}
+.jqx-fill-state-focus-metronic, .jqx-combobox-content-focus-metronic, .jqx-numberinput-focus, .jqx-datetimeinput-metronic .jqx-fill-state-hover-metronic, .jqx-datetimeinput-metronic .jqx-fill-state-pressed-metronic{ border-color: #86bfa0; }
+.jqx-fill-state-pressed-metronic{border-color:#429366; color: #000; background:#86bfa0;}
+
+.jqx-scrollbar-state-normal-metronic, .jqx-grid-bottomright-metronic, .jqx-panel-bottomright-metronic, .jqx-listbox-bottomright-metronic{background:#f3f3f3;}
+.jqx-widget-metronic .jqx-grid-column-header-metronic, .jqx-grid-cell-metronic, .jqx-widget-metronic .jqx-grid-cell-metronic, .jqx-widget-metronic .jqx-grid-group-cell-metronic, .jqx-grid-group-cell-metronic{font-family: Calibri; border-color:#f3f3f3;}
+.jqx-tabs-title-bottom-metronic, .jqx-tabs-title-metronic{color: #666666;}
+.jqx-tabs-title-hover-bottom-metronic, .jqx-tabs-title-hover-top-metronic{color: #217346; background: transparent; border-color: transparent;}
+.jqx-tabs-title-selected-bottom-metronic, .jqx-tabs-selection-tracker-bottom-metronic, .jqx-tabs-title-selected-top-metronic, .jqx-tabs-selection-tracker-top-metronic{font-weight: bold; color: #217346; border-color:#d4d4d4; border-bottom:1px solid #fff; background:#fff}
+.jqx-menu-vertical-metronic{background: #fff; border-color: #d4d4d4;}
+.jqx-widget-metronic .jqx-grid-cell-metronic, .jqx-widget-metronic .jqx-grid-column-header-metronic, .jqx-widget-metronic .jqx-grid-group-cell-metronic {color: #000; border-color: #d4d4d4;}
+.jqx-widget-metronic .jqx-grid-column-menubutton-metronic, .jqx-widget-metronic .jqx-grid-column-sortascbutton-metronic, .jqx-widget-metronic .jqx-grid-column-sortdescbutton-metronic, .jqx-widget-metronic .jqx-grid-column-filterbutton-metronic {
+    background-color: transparent;
+    border-color: #d4d4d4;
+}
+.jqx-input-button-header-metronic, .jqx-calendar-title-header-metronic, .jqx-grid-metronic .jqx-widget-header-metronic, .jqx-grid-header-metronic, .jqx-grid-column-header-metronic, .jqx-grid-metronic {font-family: Calibri; border-color: #d4d4d4; color: #444444; background: #fff;}
+.jqx-window-header-metronic{font-family: Calibri; color: #444444; background: #fff;}
+.jqx-grid-column-menubutton-metronic {
+    background-image: url('images/metronic-icon-down.png');
+}
+/*applied to the column's sort button when the sort order is ascending.*/
+.jqx-grid-column-sortascbutton-metronic {
+    background-image: url('images/metronic-icon-up.png');
+}
+.jqx-grid-column-sortdescbutton-metronic {
+    background-image: url('images/metronic-icon-down.png');
+}
+.jqx-checkbox-hover-metronic {
+    background: #fff;
+}
+.jqx-radiobutton-hover-metronic {
+    background: #fff;
+}
+.jqx-scrollbar-thumb-state-normal-horizontal-metronic, .jqx-scrollbar-thumb-state-normal-metronic {
+    background: #ffffff; border-color: #d4d4d4;
+}
+.jqx-scrollbar-thumb-state-hover-horizontal-metronic, .jqx-scrollbar-thumb-state-hover-metronic {
+    background: #f0f0f0; border-color: #d4d4d4;
+}
+.jqx-scrollbar-thumb-state-pressed-horizontal-metronic, .jqx-scrollbar-thumb-state-pressed-metronic {
+    background: #f0f0f0; border-color: #777777;
+}
+.jqx-scrollbar-button-state-normal-metronic
+{
+    border: 1px solid #d4d4d4;
+    background: #fff;
+}
+/*applied to the scrollbar buttons in hovered state.*/
+.jqx-scrollbar-button-state-hover-metronic
+{
+    border: 1px solid #777777;
+    background: #fff;
+}
+/*applied to the scrollbar buttons in pressed state.*/
+.jqx-scrollbar-button-state-pressed-metronic
+{
+    border: 1px solid #777777;
+    background: #f0f0f0;
+}
+
+/*icons*/
+.jqx-window-collapse-button-metronic
+{
+    background-image: url(images/metronic-icon-up.png);
+    background-repeat: no-repeat;
+}
+.jqx-window-collapse-button-collapsed-metronic {
+    background-image: url(images/metronic-icon-down.png);
+    background-repeat: no-repeat;
+}
+.jqx-icon-arrow-up-metronic, .jqx-expander-arrow-bottom-metronic, .jqx-menu-item-arrow-up-metronic
+{
+    background-image: url('images/metronic-icon-up.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-icon-arrow-down-metronic, .jqx-expander-arrow-top-metronic, .jqx-tree-item-arrow-expand-metronic, .jqx-tree-item-arrow-expand-hover-metronic, .jqx-menu-item-arrow-down-metronic
+{
+    background-image: url('images/metronic-icon-down.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-icon-arrow-left-metronic, .jqx-menu-item-arrow-left-metronic
+{
+    background-image: url('images/metronic-icon-left.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-icon-arrow-right-metronic, .jqx-menu-item-arrow-right-metronic, .jqx-tree-item-arrow-collapse-metronic, .jqx-tree-item-arrow-collapse-hover-metronic
+{
+    background-image: url('images/metronic-icon-right.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-tabs-arrow-left-metronic, .jqx-tree-item-arrow-collapse-rtl-metronic, .jqx-tree-item-arrow-collapse-hover-rtl-metronic
+{
+    background-image: url('images/metronic-icon-left.png');
+    background-repeat: no-repeat;
+}
+.jqx-tabs-arrow-right-metronic
+{
+    background-image: url('images/metronic-icon-right.png');
+    background-repeat: no-repeat;
+}
+
+.jqx-menu-item-arrow-up-selected-metronic, .jqx-icon-arrow-up-selected-metronic{background-image:url('images/metronic-icon-up.png');background-repeat:no-repeat;background-position:center;}
+.jqx-menu-item-arrow-down-selected-metronic, .jqx-icon-arrow-down-selected-metronic{background-image:url('images/metronic-icon-down.png');background-repeat:no-repeat;background-position:center;}
+.jqx-menu-item-arrow-left-selected-metronic, .jqx-icon-arrow-left-selected-metronic{background-image:url('images/metronic-icon-left.png');background-repeat:no-repeat;background-position:center;}
+.jqx-menu-item-arrow-right-selected-metronic, .jqx-icon-arrow-right-selected-metronic{background-image:url('images/metronic-icon-right.png');background-repeat:no-repeat;background-position:center;}
+.jqx-tabs-close-button-metronic{background-image:url(images/close.png);  background-repeat:no-repeat;  background-position:center;}
+.jqx-tabs-close-button-selected-metronic{background-image:url(images/close.png);  background-repeat:no-repeat;  background-position:center;}
+.jqx-tabs-close-button-hover-metronic{background-image:url(images/close.png);  background-repeat:no-repeat;  background-position:center;}
+.jqx-expander-arrow-bottom-metronic,.jqx-scrollbar-metronic .jqx-icon-arrow-up-selected-metronic{background-image:url('images/metronic-icon-up.png'); background-repeat:no-repeat; background-position:center;}
+.jqx-expander-arrow-top-metronic, .jqx-scrollbar-metronic .jqx-icon-arrow-down-selected-metronic{background-image:url('images/metronic-icon-down.png'); background-repeat:no-repeat; background-position:center;}
+.jqx-scrollbar-metronic .jqx-icon-arrow-left-selected-metronic{background-image:url('images/metronic-icon-left.png'); background-repeat:no-repeat; background-position:center;}
+.jqx-scrollbar-metronic .jqx-icon-arrow-right-selected-metronic{background-image:url('images/metronic-icon-right.png');background-repeat:no-repeat; background-position:center;}
+.jqx-slider-slider-metronic
+{
+}
+.jqx-slider-button-metronic
+{
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+}
+.jqx-input-button-content-metronic
+{
+    font-size: 10px;
+}
+
+.jqx-dropdownlist-state-normal-metronic, .jqx-dropdownlist-state-hover-metronic, .jqx-dropdownlist-state-selected-metronic,
+.jqx-scrollbar-button-state-hover-metronic, .jqx-scrollbar-button-state-normal-metronic, .jqx-scrollbar-button-state-pressed-metronic,
+.jqx-scrollbar-thumb-state-normal-horizontal-metronic, .jqx-scrollbar-thumb-state-hover-horizontal-metronic, .jqx-scrollbar-thumb-state-pressed-horizontal-metronic,
+.jqx-scrollbar-thumb-state-normal-metronic, .jqx-scrollbar-thumb-state-pressed-metronic, .jqx-button-metronic, .jqx-tree-item-hover-metronic, .jqx-tree-item-selected-metronic,
+.jqx-tree-item-metronic, .jqx-menu-item-metronic, .jqx-menu-item-hover-metronic, .jqx-menu-item-selected-metronic, .jqx-menu-item-top-metronic, .jqx-menu-item-top-hover-metronic,
+.jqx-menu-item-top-selected-metronic, .jqx-slider-button-metronic, .jqx-slider-slider-metronic
+{
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+.jqx-switchbutton-metronic {
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    border: 2px solid #a6a6a6;
+}
+.jqx-switchbutton-thumb-metronic {
+    width: 12px;
+    background: #000;
+    border: 1px solid #000;
+}
+.jqx-switchbutton-label-on-metronic {
+    background: #429366;
+    color: #429366;
+}
+.jqx-switchbutton-label-off-metronic {
+    background: #a6a6a6;
+    color: #a6a6a6;
+}
+.jqx-icon-arrow-first-metro
+{
+    background-image: url('images/metronic-icon-first.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jqx-icon-arrow-last-metro
+{
+    background-image: url('images/metronic-icon-last.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jqx-switchbutton-wrapper-metronic {
+}
+.jqx-layout-metronic
+{
+    background-color: #d4d4d4;
+}.jqx-widget-metronic
+ {
+     font-family: Calibri;
+ }
+.jqx-widget-content-metronic
+{
+    color: #444444;
+    text-shadow: none;
+    border-color: #d4d4d4;
+    background: #ffffff;
+    font-family: Calibri;
+}
+.jqx-widget-header-metronic, .jqx-grid-metronic .jqx-widget-header-metronic
+{
+    color: #444444;
+    text-shadow: none;
+    border-color: #C2CAD8;
+    background-color: #ffffff;
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#ffffff));
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    font-family: Calibri;
+}
+.jqx-grid-column-menubutton-metronic, .jqx-widget-metronic.jqx-grid-column-menubutton-metronic
+{
+    border-color: #C2CAD8;
+}
+.jqx-grid-cell-metronic, .jqx-widget-metronic .jqx-grid-cell-metronic
+{
+    background-color: #ffffff;
+    color: #222222;
+    text-shadow: none;
+}
+.jqx-fill-state-normal-metronic
+{
+    color: #444444;
+    text-shadow: none;
+    border-color: #c2cad8;
+    background-color: #fdfdfd;
+    background-image: -moz-linear-gradient(top, #fdfdfd, #fdfdfd);
+    background-image: -ms-linear-gradient(top, #fdfdfd, #fdfdfd);
+    background-image: -o-linear-gradient(top, #fdfdfd, #fdfdfd);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#fdfdfd), to(#fdfdfd));
+    background-image: -webkit-linear-gradient(top, #fdfdfd, #fdfdfd);
+    background-image: linear-gradient(top, #fdfdfd, #fdfdfd);
+    background-image: linear-gradient(to bottom, #fdfdfd, #fdfdfd);
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    font-family: Calibri;
+}
+.jqx-button-metronic
+{
+    color: #444444;
+    text-shadow: none;
+    border-color: #c2cad8;
+    background-color: #fdfdfd;
+    background-image: -moz-linear-gradient(top, #fdfdfd, #fdfdfd);
+    background-image: -ms-linear-gradient(top, #fdfdfd, #fdfdfd);
+    background-image: -o-linear-gradient(top, #fdfdfd, #fdfdfd);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#fdfdfd), to(#fdfdfd));
+    background-image: -webkit-linear-gradient(top, #fdfdfd, #fdfdfd);
+    background-image: linear-gradient(top, #fdfdfd, #fdfdfd);
+    background-image: linear-gradient(to bottom, #fdfdfd, #fdfdfd);
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    font-family: Calibri;
+}
+.jqx-grid-selectionarea-metronic
+{
+    border-color: #c2cad8;
+    background-color: #fdfdfd;
+}
+.jqx-widget-metronic .jqx-grid-cell-sort-metronic, .jqx-widget-metronic .jqx-grid-cell-filter-metronic, .jqx-widget-metronic .jqx-grid-cell-pinned-metronic, .jqx-grid-cell-sort-metronic, .jqx-grid-cell-filter-metronic, .jqx-grid-cell-pinned-metronic
+{
+    background-color: #ededed;
+    color: #000000;
+    text-shadow: none;
+}
+.jqx-widget-metronic .jqx-grid-cell-alt-metronic, .jqx-widget-metronic .jqx-grid-cell-sort-alt-metronic, .jqx-widget-metronic .jqx-grid-cell-pinned-alt-metronic, .jqx-widget-metronic .jqx-grid-cell-filter-alt-metronic, .jqx-grid-cell-alt-metronic, .jqx-grid-cell-sort-alt-metronic, .jqx-grid-cell-filter-alt-metronic
+{
+    background-color: #ededed;
+    color: #000000;
+    text-shadow: none;
+}
+.jqx-fill-state-hover-metronic, .jqx-widget-metronic .jqx-grid-cell-hover-metronic
+{
+    color: #444444;
+    text-shadow: none;
+    border-color: #32C5D2;
+    background-color: #A2D2D6;
+    background-image: -moz-linear-gradient(top, #A2D2D6, #6DCFD6);
+    background-image: -ms-linear-gradient(top, #A2D2D6, #6DCFD6);
+    background-image: -o-linear-gradient(top, #A2D2D6, #6DCFD6);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#A2D2D6), to(#6DCFD6));
+    background-image: -webkit-linear-gradient(top, #A2D2D6, #6DCFD6);
+    background-image: linear-gradient(top, #A2D2D6, #6DCFD6);
+    background-image: linear-gradient(to bottom, #A2D2D6, #6DCFD6);
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    font-family: Calibri;
+}
+.jqx-fill-state-pressed-metronic, .jqx-widget-metronic .jqx-grid-cell-selected-metronic
+{
+    color: #000000;
+    text-shadow: none;
+    border-color: #32C5D2;
+    background-color: #7FD6DB;
+    background-image: -moz-linear-gradient(top, #7FD6DB, #6FC9CE);
+    background-image: -ms-linear-gradient(top, #7FD6DB, #6FC9CE);
+    background-image: -o-linear-gradient(top, #7FD6DB, #6FC9CE);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#7FD6DB), to(#6FC9CE));
+    background-image: -webkit-linear-gradient(top, #7FD6DB, #6FC9CE);
+    background-image: linear-gradient(top, #7FD6DB, #6FC9CE);
+    background-image: linear-gradient(to bottom, #7FD6DB, #6FC9CE);
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    font-family: Calibri;
+}
+.jqx-switchbutton-label-on-metronic
+{
+    color: #000000;
+    text-shadow: none;
+    border-color: #32C5D2;
+    background-color: #7FD6DB;
+    background-image: -moz-linear-gradient(top, #7FD6DB, #6FC9CE);
+    background-image: -ms-linear-gradient(top, #7FD6DB, #6FC9CE);
+    background-image: -o-linear-gradient(top, #7FD6DB, #6FC9CE);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#7FD6DB), to(#6FC9CE));
+    background-image: -webkit-linear-gradient(top, #7FD6DB, #6FC9CE);
+    background-image: linear-gradient(top, #7FD6DB, #6FC9CE);
+    background-image: linear-gradient(to bottom, #7FD6DB, #6FC9CE);
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+}
+.jqx-tabs-title-selected-top-metronic, .jqx-tabs-selection-tracker-top-metronic
+{
+    color: #444444;
+    text-shadow: none;
+    border-color: #c2cad8;
+    border-bottom: 1px solid #ffffff;
+    background-image: none ;
+    background-color: #ffffff;
+}
+.jqx-tabs-title-selected-bottom-metronic, .jqx-tabs-selection-tracker-bottom-metronic
+{
+    color: #444444;
+    text-shadow: none;
+    border-color: #c2cad8;
+    border-top: 1px solid #ffffff;
+    background-image: none ;
+    background-color: #ffffff;
+}
+.jqx-splitter-splitbar-hover-metronic
+{
+    background: #A2D2D6;
+}
+.jqx-splitter-splitbar-vertical-metronic, .jqx-splitter-splitbar-horizontal-metronic, .jqx-slider-track-horizontal-metronic, .jqx-slider-track-vertical-metronic
+{
+    background: #fdfdfd;
+}
+.jqx-splitter-collapse-button-horizontal-metronic, .jqx-splitter-collapse-button-vertical-metronic, .jqx-slider-rangebar-metronic
+{
+    background: #7FD6DB;
+}
+.jqx-scrollbar-state-normal-metronic
+{
+    background-color: #f3f3f3;
+    border-color: #f3f3f3;
+}
+.jqx-grid-bottomright-metronic, .jqx-panel-bottomright-metronic, .jqx-listbox-bottomright-metronic
+{
+    background-color: #f3f3f3;
+}
+.jqx-scrollbar-thumb-state-normal-metronic
+{
+    background-color: #ffffff;
+    background-color: #ffffff;
+    background-image: -moz-linear-gradient(left, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(left, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(left, #ffffff, #ffffff);
+    background-image: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#ffffff));
+    background-image: -webkit-linear-gradient(left, #ffffff, #ffffff);
+    background-image: linear-gradient(left, #ffffff, #ffffff);
+    background-image: linear-gradient(left right, #ffffff, #ffffff);
+}
+.jqx-scrollbar-thumb-state-normal-horizontal-metronic
+{
+    background-color: #ffffff;
+    background-color: #ffffff;
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#ffffff));
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+}
+.jqx-scrollbar-thumb-state-hover-metronic
+{
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+    background-image: -moz-linear-gradient(left, #f0f0f0, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #f0f0f0);
+    background-image: -webkit-gradient(linear, left top, right top, from(#f0f0f0), to(#f0f0f0));
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #f0f0f0);
+    background-image: linear-gradient(left, #f0f0f0, #f0f0f0);
+    background-image: linear-gradient(left right, #f0f0f0, #f0f0f0);
+}
+.jqx-scrollbar-thumb-state-hover-horizontal-metronic
+{
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+    background-image: -moz-linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: -ms-linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: -o-linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#f0f0f0), to(#f0f0f0));
+    background-image: -webkit-linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: linear-gradient(to bottom, #f0f0f0, #f0f0f0);
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+}
+.jqx-scrollbar-thumb-state-pressed-metronic
+{
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+    background-image: -moz-linear-gradient(left, #f0f0f0, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #f0f0f0);
+    background-image: -webkit-gradient(linear, left top, right top, from(#f0f0f0), to(#f0f0f0));
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #f0f0f0);
+    background-image: linear-gradient(left, #f0f0f0, #f0f0f0);
+    background-image: linear-gradient(left right, #f0f0f0, #f0f0f0);
+}
+.jqx-scrollbar-thumb-state-pressed-horizontal-metronic
+{
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+    background-image: -moz-linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: -ms-linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: -o-linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#f0f0f0), to(#f0f0f0));
+    background-image: -webkit-linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: linear-gradient(to bottom, #f0f0f0, #f0f0f0);
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+}
+.jqx-scrollbar-button-state-normal-metronic
+{
+    background-color: #f3f3f3;
+    background-image: -moz-linear-gradient(top, #f3f3f3, #f3f3f3);
+    background-image: -ms-linear-gradient(top, #f3f3f3, #f3f3f3);
+    background-image: -o-linear-gradient(top, #f3f3f3, #f3f3f3);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#f3f3f3), to(#f3f3f3));
+    background-image: -webkit-linear-gradient(top, #f3f3f3, #f3f3f3);
+    background-image: linear-gradient(top, #f3f3f3, #f3f3f3);
+    background-image: linear-gradient(to bottom, #f3f3f3, #f3f3f3);
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+}
+.jqx-scrollbar-button-state-hover-metronic
+{
+    background-color: #f0f0f0;
+    border-color: #ababab;
+    background-image: -moz-linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: -ms-linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: -o-linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#f0f0f0), to(#f0f0f0));
+    background-image: -webkit-linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: linear-gradient(to bottom, #f0f0f0, #f0f0f0);
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+}
+.jqx-scrollbar-button-state-pressed-metronic
+{
+    background-color: #f0f0f0;
+    border-color: #777777;
+    background-image: -moz-linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: -ms-linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: -o-linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#f0f0f0), to(#f0f0f0));
+    background-image: -webkit-linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: linear-gradient(top, #f0f0f0, #f0f0f0);
+    background-image: linear-gradient(to bottom, #f0f0f0, #f0f0f0);
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+}
+.jqx-radiobutton-check-checked-metronic
+{
+    background: #111111;
+    width: 7px;
+    height: 7px;
+    margin-left: 2px;
+    margin-top: 2px;
+    border-width: 1px;
+    border-style: solid;
+}
+.jqx-rc-tl-metronic
+{
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-radius-topleft: 0px;
+    border-radius-topleft: 0px;
+}
+.jqx-rc-tr-metronic
+{
+    -moz-border-radius-topright: 0px;
+    -webkit-border-radius-topright: 0px;
+    border-radius-topright: 0px;
+}
+.jqx-rc-bl-metronic
+{
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-radius-bottomleft: 0px;
+    border-radius-bottomleft: 0px;
+}
+.jqx-rc-br-metronic
+{
+    -moz-border-radius-bottomright: 0px;
+    -webkit-border-radius-bottomright: 0px;
+    border-radius-bottomright: 0px;
+}
+.jqx-rc-t-metronic
+{
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    -webkit-border-top-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.jqx-rc-b-metronic
+{
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.jqx-rc-r-metronic
+{
+    -moz-border-radius-topright: 0px;
+    -webkit-border-top-right-radius: 0px;
+    border-top-right-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.jqx-rc-l-metronic
+{
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.jqx-radiobutton-default-metronic, .jqx-radiobutton-metronic, .jqx-radiobutton-check-checked-metronic, .jqx-radiobutton-hover-metronic, .jqx-radiobutton-check-indeterminate-metronic, .jqx-radiobutton-check-indeterminate-disabled-metronic, .jqx-slider-button-metronic
+{
+    -moz-border-radius: 100% !important;
+    -webkit-border-radius: 100% !important;
+    border-radius: 100% !important;
+}
+.jqx-rc-all-metronic, .jqx-tooltip-metronic, .jqx-tooltip-text-metronic, .jqx-tooltip-main-metronic
+{
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+.jqx-grid-column-sortascbutton-metronic, .jqx-expander-arrow-bottom-metronic, .jqx-window-collapse-button-metronic, .jqx-menu-item-arrow-up-metronic, .jqx-menu-item-arrow-top-up-metronic, .jqx-icon-arrow-up-metronic
+{
+    background-image: url('images/icon-up.png');
+}
+.jqx-icon-arrow-up-hover-metronic
+{
+    background-image: url('images/icon-up.png');
+}
+.jqx-menu-item-arrow-up-selected-metronic, .jqx-icon-arrow-up-selected-metronic.jqx-expander-arrow-expanded-metronic
+{
+    background-image: url('images/icon-up.png');
+}
+.jqx-grid-column-menubutton-metronic, .jqx-grid-column-sortdescbutton-metronic, .jqx-expander-arrow-top-metronic, .jqx-window-collapse-button-collapsed-metronic, .jqx-menu-item-arrow-down-metronic, .jqx-menu-item-arrow-down-metronic, .jqx-tree-item-arrow-expand-metronic, .jqx-grid-group-expand-metronic, .jqx-widget-metronic .jqx-grid-group-expand-metronic, .jqx-icon-arrow-down-metronic
+{
+    background-image: url('images/icon-down.png');
+}
+.jqx-icon-arrow-down-hover-metronic
+{
+    background-image: url('images/icon-down.png');
+}
+.jqx-menu-item-arrow-down-selected-metronic, .jqx-icon-arrow-down-selected-metronic
+{
+    background-image: url('images/icon-down.png');
+}
+.jqx-tabs-arrow-left-metronic, .jqx-menu-item-arrow-top-left-metronic, .jqx-grid-group-collapse-rtl-metronic, .jqx-widget-metronic .jqx-grid-group-collapse-rtl-metronic, .jqx-icon-arrow-left-metronic, .jqx-icon-arrow-down-left-metronic
+{
+    background-image: url('images/icon-left.png');
+}
+.jqx-icon-arrow-left-hover-metronic
+{
+    background-image: url('images/icon-left.png');
+}
+.jqx-menu-vertical-metronic
+{
+    background: #ffffff;
+}
+.jqx-menu-item-arrow-left-selected-metronic, .jqx-icon-arrow-left-selected-metronic
+{
+    background-image: url('images/icon-left.png');
+}
+.jqx-tabs-arrow-right-metronic, .jqx-menu-item-arrow-top-right-metronic, .jqx-menu-item-arrow-collapse-metronic, .jqx-grid-group-collapse-metronic, .jqx-widget-metronic .jqx-grid-group-collapse-metronic, .jqx-icon-arrow-right-metronic
+{
+    background-image: url('images/icon-right.png');
+}
+.jqx-icon-arrow-right-hover-metronic
+{
+    background-image: url('images/icon-right.png');
+}
+.jqx-menu-item-arrow-right-selected-metronic, .jqx-icon-arrow-right-selected-metronic
+{
+    background-image: url('images/icon-right.png');
+}
+.jqx-window-close-button-metronic, .jqx-tabs-close-button-metronic, .icon-close-metronic
+{
+    background-image: url('images/close.png');
+}
+.jqx-tabs-close-button-selected-metronic
+{
+    background-image: url('images/close.png');
+}
+.jqx-tabs-close-button-hover-metronic
+{
+    background-image: url('images/close.png');
+}
+.jqx-widget-metronic .jqx-grid-column-header-metronic, .jqx-widget-metronic .jqx-grid-cell-metronic, .jqx-widget-metronic .jqx-grid-group-cell-metronic, .jqx-grid-cell-metronic
+{
+    border-color: #c2cad8;
+}
+.jqx-checkbox-check-checked-metronic
+{
+    background-image: url('images/check_black.png');
+}
+.jqx-checkbox-check-indeterminate-metronic
+{
+    background-image: url('images/check_indeterminate_black.png');
+}
+.jqx-tooltip-metronic, .jqx-tooltip-main-metronic
+{
+    color: #444444;
+    text-shadow: none;
+    border-color: #c2cad8;
+    background-color: #fdfdfd;
+}
+.jqx-combobox-content-metronic, .jqx-input-metronic
+{
+    color: #444444;
+    text-shadow: none;
+    border-color: #c2cad8;
+    background-color: #ffffff;
+}
+.jqx-combobox-input-metronic
+{
+    color: #444444;
+    text-shadow: none;
+}
+.jqx-input-content-metronic
+{
+    color: #444444;
+    text-shadow: none;
+    background-color: #ffffff;
+}
+.jqx-fill-state-focus-metronic, .jqx-popup-metronic .jqx-fill-state-focus-metronic
+{
+    border-color: #85A2BC;
+}
+.jqx-popup-metronic.jqx-listbox-metronic, .jqx-popup-metronic.jqx-calendar-metronic,.jqx-menu-dropdown-metronic,  .jqx-popup-metronic.jqx-dropdownbutton-popup-metronic
+{
+    color: #444444;
+    text-shadow: none;
+    border-color: #C2CAD8;
+    background-color: #ffffff;
+}
+.jqx-menu-item-arrow-right-metronic, .jqx-tree-item-arrow-collapse-metronic
+{
+    background-image: url('images/icon-right.png');
+}
+.jqx-menu-item-arrow-left-metronic
+{
+    background-image: url('images/icon-left.png');
+}
+.jqx-tree-item-arrow-expand-metronic
+{
+    background-image: url('images/icon-down.png');
+}
+.jqx-scrollbar-metronic .jqx-icon-arrow-up-metronic
+{
+    background-image: url('images/icon-up.png');
+}
+.jqx-scrollbar-metronic .jqx-icon-arrow-left-metronic
+{
+    background-image: url('images/icon-left.png');
+}
+.jqx-scrollbar-metronic .jqx-icon-arrow-right-metronic
+{
+    background-image: url('images/icon-right.png');
+}
+.jqx-scrollbar-metronic .jqx-icon-arrow-bottom-metronic
+{
+    background-image: url('images/icon-bottom.png');
+}
+.jqx-scrollbar-metronic .jqx-icon-arrow-up-hover-metronic
+{
+    background-image: url('images/icon-up.png');
+}
+.jqx-scrollbar-metronic .jqx-icon-arrow-left-hover-metronic
+{
+    background-image: url('images/icon-left.png');
+}
+.jqx-scrollbar-metronic .jqx-icon-arrow-right-hover-metronic
+{
+    background-image: url('images/icon-right.png');
+}
+.jqx-scrollbar-metronic .jqx-icon-arrow-bottom-hover-metronic
+{
+    background-image: url('images/icon-bottom.png');
+}
+.jqx-scrollbar-metronic .jqx-icon-arrow-up-selected-metronic
+{
+    background-image: url('images/icon-up.png');
+}
+.jqx-scrollbar-metronic .jqx-icon-arrow-left-selected-metronic
+{
+    background-image: url('images/icon-left.png');
+}
+.jqx-scrollbar-metronic .jqx-icon-arrow-right-selected-metronic
+{
+    background-image: url('images/icon-right.png');
+}
+.jqx-scrollbar-metronic .jqx-icon-arrow-bottom-selected-metronic
+{
+    background-image: url('images/icon-bottom.png');
+}
+.jqx-calendar-metronic .jqx-icon-arrow-up-metronic, .jqx-tabs-header-metronic .jqx-icon-arrow-up-metronic
+{
+}
+.jqx-calendar-metronic .jqx-icon-arrow-left-metronic, .jqx-tabs-header-metronic .jqx-icon-arrow-left-metronic
+{
+}
+.jqx-calendar-metronic .jqx-icon-arrow-right-metronic, .jqx-tabs-header-metronic .jqx-icon-arrow-right-metronic
+{
+}
+.jqx-calendar-metronic .jqx-icon-arrow-bottom-metronic, .jqx-tabs-header-metronic .jqx-icon-arrow-bottom-metronic
+{
+}
+.jqx-widget-metronic .jqx-grid-cell-metronic, .jqx-listitem-state-normal-metronic, .jqx-menu-item-normal-metronic, .jqx-tree-item-normal-metronic, .jqx-calendar-cell-metronic, .jqx-grid-cell-metronic,.jqx-menu-vertical-metronic .jqx-menu-item-top-normal-metronic, .jqx-input-popup-metronic .jqx-fill-state-normal-metronic
+{
+    font-family: Calibri;
+}
+.jqx-widget-metronic .jqx-grid-cell-hover-metronic, .jqx-listitem-state-hover-metronic, .jqx-menu-item-hover-metronic, .jqx-tree-item-hover-metronic, .jqx-calendar-cell-hover-metronic, .jqx-grid-cell-hover-metronic,.jqx-menu-vertical-metronic .jqx-menu-item-top-hover-metronic, .jqx-input-popup-metronic .jqx-fill-state-hover-metronic,.jqx-input-button-header-metronic, .jqx-input-popup-metronic .jqx-fill-state-pressed-metronic,.jqx-input-button-header-metronic
+{
+    font-family: Calibri;
+}
+.jqx-widget-metronic  .jqx-grid-cell-selected-metronic, .jqx-listitem-state-selected-metronic, .jqx-menu-item-selected-metronic, .jqx-tree-item-selected-metronic, .jqx-calendar-cell-selected-metronic, .jqx-grid-cell-selected-metronic,.jqx-menu-vertical-metronic .jqx-menu-item-top-selected-metronic, .jqx-grid-selectionarea-metronic
+{
+    font-family: Calibri;
+}
+.jqx-icon-calendar-metronic
+{
+    background-image: url('images/icon-calendar.png');
+}
+.jqx-icon-calendar-hover-metronic
+{
+    background-image: url('images/icon-calendar.png');
+}
+.jqx-icon-calendar-pressed-metronic
+{
+    background-image: url('images/icon-calendar.png');
+}
+.jqx-icon-first-metronic
+{
+    background-image: url('images/icon-first.png');
+}
+.jqx-icon-first-hover-metronic
+{
+    background-image: url('images/icon-first.png');
+}
+.jqx-icon-first-selected-metronic
+{
+    background-image: url('images/icon-first.png');
+}
+.jqx-icon-last-metronic
+{
+    background-image: url('images/icon-last.png');
+}
+.jqx-icon-last-hover-metronic
+{
+    background-image: url('images/icon-last.png');
+}
+.jqx-icon-last-selected-metronic
+{
+    background-image: url('images/icon-last.png');
+}
+.jqx-grid-cell-metronic.jqx-grid-cell-metronic>.jqx-grid-group-expand-metronic
+{
+    background-image: url('images/icon-down.png');
+}
+.jqx-grid-cell-metronic.jqx-grid-cell-hover-metronic>.jqx-grid-group-expand-metronic
+{
+    background-image: url('images/icon-down.png');
+}
+.jqx-grid-cell-metronic.jqx-grid-cell-selected-metronic>.jqx-grid-group-expand-metronic
+{
+    background-image: url('images/icon-down.png');
+}
+.jqx-grid-cell-metronic.jqx-grid-cell-metronic>.jqx-grid-group-collapse-metronic
+{
+    background-image: url('images/icon-right.png');
+}
+.jqx-grid-cell-metronic.jqx-grid-cell-hover-metronic>.jqx-grid-group-collapse-metronic
+{
+    background-image: url('images/icon-right.png');
+}
+.jqx-grid-cell-metronic.jqx-grid-cell-selected-metronic>.jqx-grid-group-collapse-metronic
+{
+    background-image: url('images/icon-right.png');
+}
+.jqx-grid-cell-metronic.jqx-grid-cell-metronic>.jqx-grid-group-expand-rtl-metronic
+{
+    background-image: url('images/icon-down.png');
+}
+.jqx-grid-cell-metronic.jqx-grid-cell-hover-metronic>.jqx-grid-group-expand-rtl-metronic
+{
+    background-image: url('images/icon-down.png');
+}
+.jqx-grid-cell-metronic.jqx-grid-cell-selected-metronic>.jqx-grid-group-expand-rtl-metronic
+{
+    background-image: url('images/icon-down.png');
+}
+.jqx-grid-cell-metronic.jqx-grid-cell-metronic>.jqx-grid-group-collapse-rtl-metronic
+{
+    background-image: url('images/icon-left.png');
+}
+.jqx-grid-cell-metronic.jqx-grid-cell-hover-metronic>.jqx-grid-group-collapse-rtl-metronic
+{
+    background-image: url('images/icon-left.png');
+}
+.jqx-grid-cell-metronic.jqx-grid-cell-selected-metronic>.jqx-grid-group-collapse-rtl-metronic
+{
+    background-image: url('images/icon-left.png');
+}
+.jqx-grid-column-menubutton-metronic, .jqx-grid-column-sortdescbutton-metronic
+{
+    background-image: url('images/icon-down.png');
+}
+.jqx-grid-column-sortascbutton-metronic
+{
+    background-image: url('images/icon-up.png');
+}
+.jqx-icon-delete-metronic
+{
+    background-image: url('images/icon-delete.png');
+}
+.jqx-icon-edit-metronic
+{
+    background-image: url('images/icon-edit.png');
+}
+.jqx-icon-save-metronic
+{
+    background-image: url('images/icon-save.png');
+}
+.jqx-icon-cancel-metronic
+{
+    background-image: url('images/icon-cancel.png');
+}
+.jqx-icon-search-metronic
+{
+    background-image: url('images/icon-search.png');
+}
+.jqx-icon-plus-metronic
+{
+    background-image: url('images/icon-plus.png');
+}
